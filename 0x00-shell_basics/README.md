@@ -1,1 +1,1 @@
- Create a magic file school.mgc
+absolute path name of the current working directory
