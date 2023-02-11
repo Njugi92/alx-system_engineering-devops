@@ -10,3 +10,4 @@ Delete the file betty from /tmp/my first directory
 Delete the directory my first directory in /tmp directory
 Lists all files even hiden,in long format of both current directory,parent directory and boot directory
 script that prints the file type of iamfile at /tmp
+a symolic link to /bin/ls named __ls__
