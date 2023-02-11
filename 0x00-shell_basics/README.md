@@ -14,3 +14,4 @@ a symolic link to /bin/ls named __ls__
 move all files starting with upper case to /tmp/u
 command that deletes all files ending with ~
 creates welcome/,welcome/to,welcome/to/school
+list of files even hidden files separated by comma and directory end with / and sort digits and letters
