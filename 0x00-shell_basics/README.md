@@ -8,3 +8,4 @@ script that creates a directory named my first directory in the /tmp/ directory
 moves betty from /tmp to /tmp/my first directory
 Delete the file betty from /tmp/my first directory
 Delete the directory my first directory in /tmp directory
+Lists all files even hiden,in long format of both current directory,parent directory and boot directory
