@@ -13,3 +13,4 @@ script that prints the file type of iamfile at /tmp
 a symolic link to /bin/ls named __ls__
 move all files starting with upper case to /tmp/u
 command that deletes all files ending with ~
+creates welcome/,welcome/to,welcome/to/school
