@@ -6,4 +6,4 @@ Display current directory contents, including hidden files
 Display current directories contents,long format,user and group IDs displayed numerically and hidden files
 script that creates a directory named my first directory in the /tmp/ directory
 moves betty from /tmp to /tmp/my first directory
-Delete the file betty,
+Delete the file betty; the file betty is in /tmp/my first directory
