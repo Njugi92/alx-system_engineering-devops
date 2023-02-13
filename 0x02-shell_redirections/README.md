@@ -10,5 +10,5 @@ shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\
 script that writes into ls_cwd_content the result of command ls -la
 script that duplicates the last line of file iacta
 script that deletes all the regular files in .js
-script that counts the number of directories and sub directories in current working 
-display the lines containing the pattern "root" from the file /etc/passwd
+script that counts the number of directories and sub directories in current working
+display the number of lines that contain the pattern  "bin" in the file /etc/passwd 
