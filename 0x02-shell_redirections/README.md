@@ -13,4 +13,5 @@ script that deletes all the regular files in .js
 script that counts the number of directories and sub directories in current working
 script to reverse
 dj cut killer
-command that finds all empty files and directories and sub directories 
+command that finds all empty files and directories and sub directories
+script that prints all .gif files in current working directory 
