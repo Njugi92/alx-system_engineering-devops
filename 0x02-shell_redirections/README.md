@@ -12,4 +12,5 @@ script that duplicates the last line of file iacta
 script that deletes all the regular files in .js
 script that counts the number of directories and sub directories in current working
 script to reverse
-dj cut killer 
+dj cut killer
+command that finds all empty files and directories and sub directories 
