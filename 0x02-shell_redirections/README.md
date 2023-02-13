@@ -14,4 +14,5 @@ script that counts the number of directories and sub directories in current work
 script to reverse
 dj cut killer
 command that finds all empty files and directories and sub directories
-script that prints all .gif files in current working directory 
+script that prints all .gif files in current working directory
+script that decodes the first letter of each line in acrostic 
