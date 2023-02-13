@@ -10,5 +10,6 @@ shell script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\
 script that writes into ls_cwd_content the result of command ls -la
 script that duplicates the last line of file iacta
 script that deletes all the regular files in .js
-script that counts the number of directories and sub directories in current working directories
-script that removes all letter c and C from input 
+script that counts the number of directories and sub directories in current working 
+script that removes c and C
+script that display all users and their home directories sorted by users based on /etc/passwd file
