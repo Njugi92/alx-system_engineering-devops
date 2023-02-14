@@ -9,3 +9,4 @@ script that creates new global variable named "BEST" value "School"
 script that prints the result of addition 128 with the value stored in envilonment variable TRUEKNOWLEDGE
 script that prints the results of POWER divided by DIVIDE, (POWER and DIVIDE are envilonment variables)
 script that display the result of BREATH to the power LOVE, where BREATH and LOVE are envilonment variables
+script that converts a number from base 2 to base 10, number in base 2 is stored in envilonment variable
