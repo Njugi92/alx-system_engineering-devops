@@ -4,3 +4,4 @@ Add /action to PATH /action should be the last directory the shell looks into wh
 script that conts number of the directories in PATH
 script that lists envilonment variables
 script that prints all local variables and envilonment variables, and functions
+script that creates a new local variable named "BEST" value "School"
