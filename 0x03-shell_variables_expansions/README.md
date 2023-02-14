@@ -15,3 +15,4 @@ script that prints a number with two decimal places, the number will be stored i
 script that converts a number from base 10 to base 16, number in base 10 is stored in envilonment variable DECIMAL
 script that encodes and decodes text using th rot13 encriptions
 script that prints every other line from the input, starting fro the first line
+script that adds the two numbers stored in envilonment variable WATER and STIR and print the result
