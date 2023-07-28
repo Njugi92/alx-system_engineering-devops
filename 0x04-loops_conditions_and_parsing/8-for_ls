@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
-#script that displays:
+# displays the content of the current working directory.
 
-#content of current directory
-#in list format
-#where only part of the name after first dash displayed
-
-list=$(ls)
-for j in $list;do
- echo "$j" | cut -d '-' -f2
+for i in *
+do
+    echo "$i" | cut -d'-' -f2
 done
