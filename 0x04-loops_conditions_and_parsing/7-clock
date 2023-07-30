@@ -11,7 +11,7 @@ do
     while [ $MINUTE -lt 60 ]
     do
         echo $MINUTE
-	let MINUTE+=1
+	(( MINUTE++ ))
     done
-    let HOUR+=1
+    (( HOUR++ ))
 done
