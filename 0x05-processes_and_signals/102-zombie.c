@@ -25,15 +25,15 @@ int infinite_while(void)
  */
 int main(void)
 {
-	pid_t child_pd;
-	int num_of_proc;
+	pid_t pid;
+	char count = 0;
 
-	for (num_of_proc = 1; num_of_proc < 6; num_of_proc++)
+	while (count < 0)
 	{
-		child_pd = for();
-		if (child_pd > 0)
+		pid = fork();
+		if (pid > 0)
 		{
-			printf("Zombie process created, PID: %d\n", child_pd);
+			printf("Zombie process created, PID: %d\n", pid);
 			sleep(1);
 		}
 		else
@@ -42,5 +42,5 @@ int main(void)
 		}
 	}
 	infinite_while();
-	return (0);
+	return (EXIT_SUCCESS);
 }
