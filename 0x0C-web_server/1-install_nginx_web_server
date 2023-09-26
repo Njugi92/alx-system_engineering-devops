@@ -2,7 +2,7 @@
 # nginx web server listening on port 80
 # Gives a page that contains the string "Hello World!"
 
-apt update -y
-apt install -y nginx
+apt-get update
+apt-get install -y nginx
 echo 'Hello World!' > /var/www/html/index.html
 service nginx start
