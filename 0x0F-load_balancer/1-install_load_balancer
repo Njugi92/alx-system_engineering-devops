@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Installing to haproxy and config 2 server
+apt-get update
+apt-get -y install haproxy=1.6.\*
+echo "ENABLED=1" >> /etc/default/haproxy
+sed -i '/504.http/a \\nlisten http-in\n\tbind *:80\n\tmode http\n\tbalance roundrobin\n\tserver 238864-web-01 52.204.97.34:80 check\n\tserver 238864-web-02 34.203.75.101:80 check' /etc/haproxy/haproxy.cfg
+sudo service haproxy start
