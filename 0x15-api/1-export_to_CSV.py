@@ -20,7 +20,7 @@ if __name__ == "__main__":
             employee = i['username']
 
     with open(argv[1] + '.csv', 'w', newline='') as file:
-        writ = csv.writer(file, quoting=csv.QUOT_ALL)
+        writ = csv.writer(file, quoting=csv.QUOTE_ALL)
 
         for i in data:
 
