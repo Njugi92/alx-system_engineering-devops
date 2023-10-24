@@ -11,7 +11,7 @@ from sys import argv
 
 if __name__ == "__main__":
     responce = get('https://jsonplaceholder.typicode.com/todos/')
-    data = response.json()
+    data = responce.json()
     completed = 0
     total = 0
     tasks = []
