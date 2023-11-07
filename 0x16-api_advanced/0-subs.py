@@ -1,14 +1,11 @@
 #!/usr/bin/python3
-"""The modules for how many subs"""
-
+"""Module for how many subs"""
 
 
 def number_of_subscribers(subreddit):
-    """ Reddit API and returns the number of subscribers
-    for a given subreddit.
-    """
+    """Queries Reddit API and returns number of subscribers
+    to the subreddit"""
     import requests
-
 
     sub_info = requests.get("https://www.reddit.com/r/{}/about.json"
                             .format(subreddit),
