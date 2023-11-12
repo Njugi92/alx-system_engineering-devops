@@ -1,6 +1,6 @@
 Postmortem Report
 
-![Alt 504 Error while accessing a given URL](~/alx-system_engineering-devops/0x19-postmortem/post.gif)
+![Alt 504 Error on accessing a given URL](post.gif)
 
 Incident report for 504 error/ Site Outage
 
