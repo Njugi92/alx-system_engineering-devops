@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# Find the Gunicorn master PID
-GUNICORN_PID=$(pgrep gunicorn)
-# Send a HUP signal to the Gunicorn master process
-kill -s HUP $GUNICORN_PID
+# Gracefully reload Gunicorn
+pgrep gunicorn | xargs kill - HUP
